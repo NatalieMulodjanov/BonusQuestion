@@ -10,5 +10,17 @@ package bonusquestion;
  * @author ntali
  */
 public class Question {
+    private int grade;
     
+    Question(int grade){
+        this.grade = grade;
+    }
+    
+    public void setGrade(int grade){
+        this.grade = grade;
+    }
+    
+    public int getGrade(){
+        return grade;
+    }
 }

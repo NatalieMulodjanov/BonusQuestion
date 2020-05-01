@@ -12,7 +12,10 @@ package bonusquestion;
 public class BonusQuestion {
 
     public static void main(String[] args) {
+       Question grade1 = new Question(99);
        
+       grade1.setGrade(100);
+        System.out.println("The grade new is: " + grade1.getGrade() );
     }
     
 }
